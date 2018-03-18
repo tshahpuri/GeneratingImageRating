@@ -5,11 +5,11 @@
 
   "train_path"      : "dataset/train",
   "test_path"       : "dataset/test",
-  "features_path"   : "output/project_1/inceptionv3/features.h5",
-  "labels_path"     : "output/project_1/inceptionv3/labels.h5",
-  "results"         : "output/project_1/inceptionv3/results.txt",
-  "classifier_path" : "output/project_1/inceptionv3/classifier.pickle",
-  "model_path"      : "output/project_1/inceptionv3/model",
+  "features_path"   : "output/project_1/xception/features.h5",
+  "labels_path"     : "output/project_1/xception/labels.h5",
+  "results"         : "output/project_1/xception/results.txt",
+  "classifier_path" : "output/project_1/xception/classifier.pickle",
+  "model_path"      : "output/project_1/xception/model",
 
   "test_size"       : 0.10,
   "seed"            : 9,
