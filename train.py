@@ -64,10 +64,10 @@ print ("[INFO] creating model...")
 model = LogisticRegression(random_state=seed)
 #model = LinearDiscriminantAnalysis()
 #model = KNeighborsClassifier()
-#model = DecisionTreeClassifier(random_state=9)
+#model = DecisionTreeClassifier(random_state=seed)
 #model = RandomForestClassifier(n_estimators=100, random_state=seed)
 #model = GaussianNB()
-#model = SVC(random_state=9)
+#model = SVC(random_state=seed)
 model.fit(trainData, trainLabels)
 
 # use rank-1 and rank-5 predictions
